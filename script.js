@@ -48,12 +48,16 @@
 // let a = +prompt("Введите 1 целое число");
 // let b = +prompt("Введите 2 целое число");
 // let c = +prompt("Введите 3 целое число");
-// let plus = 0, minus = 0;
+// let plus = 0, minus = 0, nulll = 0;
+
 // if(a>0){
 //     plus++;
 // }
 // else if(a<0){
 //     minus++;
+// }
+// else{
+//     nulll++;
 // }
 
 // if(b>0){
@@ -62,6 +66,9 @@
 // else if(b<0){
 //     minus++;
 // }
+// else{
+//     nulll++;
+// }
 
 // if(c>0){
 //     plus++;
@@ -69,7 +76,10 @@
 // else if(c<0){
 //     minus++;
 // }
-// alert(`Plus: ${plus}; Minus: ${minus}`);
+// else{
+//     nulll++;
+// }
+// alert(`Plus: ${plus}; Minus: ${minus}; Null: ${nulll}`);
 
 // If 6
 // let a = +prompt("Введите 1 целое число a");
